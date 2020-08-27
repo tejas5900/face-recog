@@ -27,7 +27,7 @@ class Register extends Component{
 
         onRegister=(event)=>{
             event.preventDefault();
-            fetch('http://localhost:5000/register/', { 
+            fetch('https://powerful-shelf-97969.herokuapp.com/register', { 
             method:'post',
             headers: {'Content-Type':'application/json'},
             body: JSON.stringify({
