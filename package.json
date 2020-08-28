@@ -1,6 +1,5 @@
 {
   "name": "face-recog",
-  "homepage": "https://tejas5900.github.io/face-recog/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
